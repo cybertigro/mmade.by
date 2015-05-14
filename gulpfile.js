@@ -19,10 +19,10 @@ var path = {
         // html: 'build/',
         js: 'js/',
         css: 'css/',
-        img: 'build/img/'
+        img: 'img/'
     },
     sprite: {
-      css: 'src/style/partials/resources/'
+      css: 'src/style/'
     },
     src: {
         // html: 'src/*.html',
@@ -49,7 +49,7 @@ var config = {
     tunnel: false,
     host: 'localhost',
     port: 9000,
-    logPrefix: "ulej-FE"
+    logPrefix: "ipin"
 };
 
 var isDev  = false;
@@ -66,15 +66,13 @@ gulp.task('js:build', function () {
 });
 
 gulp.task('img:build', function () {
-  // var spriteData = gulp.src(path.src.img)
-  //   .pipe(spritesmith({
-  //       imgName: 'icons.png',
-  //       cssName: 'sprite.css'
-  //     }));
-  //   spriteData.img.pipe(gulp.dest(path.build.img));
-  //   spriteData.css.pipe(gulp.dest(path.sprite.css));
-  //   gulp.src(path.src.img)
-  //       .pipe(gulp.dest(path.build.img));
+  var spriteData = gulp.src(path.src.img)
+    .pipe(spritesmith({
+        imgName: '../img/icons.png',
+        cssName: 'sprite.scss'
+      }));
+    spriteData.img.pipe(gulp.dest(path.build.img));
+    spriteData.css.pipe(gulp.dest(path.sprite.css));
 });
 
 gulp.task('style:build', function () {
@@ -101,7 +99,7 @@ gulp.task('favicon:build', function() {
 
 gulp.task('build', [
     'js:build',
-    // 'img:build',
+    'img:build',
     'style:build'
     // , 'favicon:build'
 ]);
@@ -116,9 +114,9 @@ gulp.task('watch', function(){
     watch([path.watch.favicon], function(event, cb) {
         gulp.start('favicon:build');
     });
-    // watch([path.watch.img], function(event, cb) {
-    //     gulp.start('img:build');
-    // });
+    watch([path.watch.img], function(event, cb) {
+        gulp.start('img:build');
+    });
 });
 
 gulp.task('webserver', function () {

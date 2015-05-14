@@ -77,13 +77,12 @@
 				</button>
 
 				<?php $logo = of_get_option('logo'); ?>
-				<a class="navbar-brand<?php if ($logo != '') { echo ' logo'; } ?>" href="<?php echo home_url('/'); ?>">
+				<a class="navbar-brand<?php if ($logo != '') { echo ' logo'; } ?> header__logo" href="<?php echo home_url('/'); ?>">
 				<?php if ($logo != '') { ?>
 					<img src="<?php echo $logo ?>" alt="Logo" />
-				<?php } else {
-					bloginfo('name');
-				}
-				?>
+				<?php } else { ?>
+					<i class="icon-logo"></i>
+				<?php } ?>
 				</a>
 			</div>
 

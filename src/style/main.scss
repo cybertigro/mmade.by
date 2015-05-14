@@ -1,5 +1,7 @@
-@import 'bootstrap.scss';
-@import 'font-awesome.min.scss';
-@import 'style.scss';
+@import "third-party/bootstrap.scss";
+@import "third-party/font-awesome.min.scss";
+@import "third-party/style.scss";
+@import "sprite.scss";
 
-@import 'header.scss';
+@import "default/default.scss";
+@import "header/header.scss";
