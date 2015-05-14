@@ -1,0 +1,2205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iPin Pro\n"
+"POT-Creation-Date: 2015-05-01 21:15+0300\n"
+"PO-Revision-Date: 2015-05-02 02:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "404 Error: Page Not Found"
+msgstr "Нам очень жаль но страница не найдена (=4_4=)"
+
+#: 404.php:10
+msgid "Oops... the page you requested could not be found."
+msgstr "Оуч... Запрашиваемая вами страница не найдена."
+
+#: 404.php:11
+msgid "Perhaps searching will help."
+msgstr "Возможно, поиск поможет."
+
+#: author.php:58
+msgid "Most Followers"
+msgstr "Самый популярный"
+
+#: author.php:62
+msgid "Most Pins"
+msgstr "Самый активный"
+
+#: author.php:99 author.php:131 author.php:214 single-pin.php:214
+#: single-pin.php:610 single-pin.php:688
+msgid "Send Message"
+msgstr "Связаться"
+
+#: author.php:205 single-pin.php:679
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: author.php:209 single-pin.php:683
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+#: author.php:211 single-pin.php:685
+msgid "Please enter a valid email"
+msgstr ""
+
+#: author.php:212 single-pin.php:686
+msgid "Message sent to"
+msgstr "Сообщение отправлено"
+
+#: author.php:215 functions.php:993 single-pin.php:583 single-pin.php:689
+msgid "Close"
+msgstr "Закрыть"
+
+#: author.php:229 search.php:10 search.php:20 search.php:24 search.php:181
+#: search.php:187
+msgid "Boards"
+msgstr "Коллекции"
+
+#: author.php:230 author.php:268 author.php:504 author.php:511 search.php:137
+#: search.php:144 sidebar-right.php:70 sidebar-right.php:77
+msgid "pins"
+msgstr "вещи"
+
+#: author.php:230 author.php:333 page_top_users.php:44 page_top_users.php:142
+#: search.php:6 search.php:239 single-pin.php:220 taxonomy-board.php:46
+msgid "Pins"
+msgstr "Вещи"
+
+#: author.php:231 author.php:280 index-masonry.php:69 index-masonry.php:78
+#: index-masonry.php:95 index-masonry.php:101
+msgid "likes"
+msgstr "нравится"
+
+#: author.php:231 functions.php:1003 single-pin.php:465
+msgid "Likes"
+msgstr "Нравится"
+
+#: author.php:232 author.php:313 author.php:314 author.php:394 author.php:395
+#: author.php:404 author.php:405 author.php:419
+msgid "followers"
+msgstr "подписчики"
+
+#: author.php:232 author.php:333 page_top_users.php:44 page_top_users.php:142
+#: search.php:239 single-pin.php:220
+msgid "Followers"
+msgstr "Подписчики"
+
+#: author.php:233 author.php:313 author.php:316 author.php:396 author.php:397
+#: author.php:406 author.php:407 author.php:421
+msgid "following"
+msgstr "подписан"
+
+#: author.php:233
+msgid "Following"
+msgstr "Подписан"
+
+#: author.php:237 author.php:379 functions.php:997 page_top_users.php:90
+#: page_top_users.php:188 search.php:285 single-pin.php:205
+msgid "Follow"
+msgstr "Подписаться"
+
+#: author.php:237 author.php:379 functions.php:1025 page_top_users.php:90
+#: page_top_users.php:188 search.php:285 single-pin.php:205
+msgid "Unfollow"
+msgstr "Отписаться"
+
+#: author.php:246 single-pin.php:70 taxonomy-board.php:61
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: author.php:247 single-pin.php:71 taxonomy-board.php:62
+msgid "Share on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: author.php:248 single-pin.php:72 taxonomy-board.php:63
+msgid "Share on Reddit"
+msgstr "Поделиться в  Reddit"
+
+#: author.php:249 single-pin.php:73 taxonomy-board.php:64
+msgid "Share on Google+"
+msgstr "Поделиться в Google+"
+
+#: author.php:250 single-pin.php:74 taxonomy-board.php:65
+msgid "Share on Pinterest"
+msgstr "Поделиться в Pinterest"
+
+#: author.php:254
+msgid "Edit Profile"
+msgstr "Редактировать профиль"
+
+#: author.php:258
+msgid "Edit User"
+msgstr "Редактировать пользователя"
+
+#: author.php:305 author.php:567 index-masonry.php:61 page_source.php:105
+#: search.php:201 search.php:356
+msgid "Nothing yet."
+msgstr "Пока ничего нет. о_О"
+
+#: author.php:333 page_top_users.php:44 page_top_users.php:142 search.php:239
+#: single-pin.php:220
+msgid "Pin"
+msgstr "Вещь"
+
+#: author.php:333 page_top_users.php:44 page_top_users.php:142 search.php:239
+#: single-pin.php:220
+msgid "Follower"
+msgstr "Подписчик"
+
+#: author.php:382 page_top_users.php:93 page_top_users.php:191 search.php:288
+#: single-pin.php:208
+msgid "Myself!"
+msgstr "Это вы"
+
+#: author.php:395 author.php:397 author.php:548 category-blog.php:80
+#: index-masonry.php:95 index-masonry.php:108 page_cp_notifications.php:102
+#: page_full_width_100percet.php:174 page_source.php:120 search.php:181
+#: search.php:299 single-masonry.php:154
+msgid "&laquo; Previous"
+msgstr "&laquo; Предыдущий"
+
+#: author.php:405 author.php:407 author.php:554 category-blog.php:81
+#: index-masonry.php:101 index-masonry.php:109 page_cp_notifications.php:108
+#: page_full_width_100percet.php:180 page_source.php:126 search.php:187
+#: search.php:305 single-masonry.php:160
+msgid "Next &raquo;"
+msgstr "Следующий &raquo;"
+
+#: author.php:420
+msgid "No one following yet."
+msgstr "Пока никто не следит за вами"
+
+#: author.php:422
+msgid "Not following anyone yet."
+msgstr "Пока ни за кем не следит"
+
+#: author.php:504 page_cp_notifications.php:71 page_cp_notifications.php:75
+#: page_cp_notifications.php:82 search.php:137 sidebar-right.php:70
+msgid "pin"
+msgstr "Вещь"
+
+#: author.php:535 functions.php:998 search.php:168 sidebar-right.php:101
+#: single-pin.php:241 single-pin.php:327 taxonomy-board.php:50
+msgid "Follow Board"
+msgstr "Подписаться"
+
+#: author.php:535 functions.php:1026 search.php:168 sidebar-right.php:101
+#: single-pin.php:241 single-pin.php:327 taxonomy-board.php:50
+msgid "Unfollow Board"
+msgstr "Отписаться"
+
+#: author.php:538 page_cp_boards.php:23 search.php:171 sidebar-right.php:104
+#: single-pin.php:244 single-pin.php:330 taxonomy-board.php:70
+msgid "Edit Board"
+msgstr "Редактировать"
+
+#: category-blog.php:16 single-blog.php:16
+msgid "0 Comments"
+msgstr "Нет комментариев"
+
+#: category-blog.php:16 single-blog.php:16
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: category-blog.php:16 single-blog.php:16
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: category-blog.php:16 single-blog.php:16 single-pin.php:91
+msgid "Edit"
+msgstr "Редактировать"
+
+#: category-blog.php:32 page.php:19 page_full_width.php:21
+#: page_full_width_100percet.php:25 page_no_sidebar.php:22
+#: page_no_sidebar_wide.php:22 single-blog.php:32 single-pin.php:191
+msgid "Pages:"
+msgstr "Страницы"
+
+#: category-blog.php:42 functions.php:67 header.php:23 page_cp_boards.php:38
+#: page_cp_boards.php:88 page_gifts.php:32 page_popular.php:16
+#: single-blog.php:42 taxonomy-board.php:45
+msgid "Category"
+msgstr "Категории"
+
+#: comments.php:15
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Старые комментарии"
+
+#: comments.php:16
+msgid "Newer Comments &raquo;"
+msgstr "Новые комментарии &raquo;"
+
+#: comments.php:30 index-masonry-inc.php:208
+msgid "X Cancel reply"
+msgstr "X Отменить"
+
+#: comments.php:34 comments.php:43 index-masonry-inc.php:212
+msgid "Post Comment"
+msgstr "Комментировать"
+
+#: comments.php:35 index-masonry-inc.php:213
+msgid "Add a comment..."
+msgstr "Добавить комментарий"
+
+#: comments.php:42
+msgid "Login to comment..."
+msgstr "Войдите чтоб комментировать"
+
+#: footer.php:9 functions.php:1029
+msgid "Welcome"
+msgstr "Добро пожаловать!"
+
+#: footer.php:17 functions.php:1027 page_cp_login.php:68
+#: page_cp_login_lpw.php:219
+msgid "Username or Email"
+msgstr "Имя или Email"
+
+#: footer.php:21 functions.php:1013 page_cp_login.php:58 page_cp_login.php:73
+#: page_cp_register.php:310 page_cp_settings.php:373
+msgid "Password"
+msgstr "Пароль"
+
+#: footer.php:21 functions.php:999 page_cp_login.php:73
+msgid "Forgot?"
+msgstr "Забыли?"
+
+#: footer.php:25 functions.php:1005 header.php:130 header.php:131
+#: page_cp_login.php:63 page_cp_login.php:91
+msgid "Login"
+msgstr "Вход"
+
+#: footer.php:27 functions.php:1012
+msgid "or"
+msgstr "или"
+
+#: footer.php:27 functions.php:1023 header.php:129 header.php:181
+#: page_cp_register.php:295 page_cp_register.php:351
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: footer.php:37
+msgid "Top"
+msgstr "Наверх"
+
+#: footer.php:43
+msgid "You need to enable Javascript."
+msgstr "Вам нужно включить Javascript"
+
+#: functions.php:64 header.php:20
+msgid "Untitled"
+msgstr "Без названия"
+
+#: functions.php:67 functions.php:1251 header.php:23 single-pin.php:246
+msgid "Pinned onto"
+msgstr "Еще в"
+
+#: functions.php:67 header.php:23
+msgid "Board in"
+msgstr "В коллекции"
+
+#: functions.php:171
+msgid "Board by"
+msgstr "Коллекция от"
+
+#: functions.php:176 page_source.php:17
+msgid "Pins from"
+msgstr "Вещи из "
+
+#: functions.php:191
+msgid "Tag:"
+msgstr "Метки:"
+
+#: functions.php:195
+msgid "Category:"
+msgstr "Категории:"
+
+#: functions.php:199 header.php:199
+msgid "Search results for"
+msgstr "Результаты поиска: "
+
+#: functions.php:315
+msgid "Email not verified. Please check your email for verification link."
+msgstr "Email не подтвержден. Пожалуйста проверьте свою электронную почту."
+
+#: functions.php:333 page_cp_login_lpw.php:61 page_cp_register.php:41
+#: page_cp_register.php:161
+msgid "<strong>ERROR</strong>: Incorrect Captcha."
+msgstr "<strong>Ошибка</strong>: Не правильный код"
+
+#: functions.php:640
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr "Защищено паролем. Для того чтоб посмотреть авторизуируйтесь."
+
+#: functions.php:956 page_cp_pins.php:71 page_cp_pins.php:320
+#: page_cp_pins.php:508
+msgid "Describe your pin..."
+msgstr "Опишите вашу вешь"
+
+#: functions.php:960 functions.php:962 page_cp_pins.php:74
+#: page_cp_pins.php:323 page_cp_pins.php:511
+msgid "Title..."
+msgstr "Как называется?"
+
+#: functions.php:962 page_cp_pins.php:81 page_cp_pins.php:330
+#: page_cp_pins.php:518
+msgid "Description..."
+msgstr "Короткое описание ..."
+
+#: functions.php:967 page_cp_pins.php:98 page_cp_pins.php:339
+#: page_cp_pins.php:527
+msgid "Tags e.g. comma, separated"
+msgstr ""
+"Свойства и материалы изделия через запятую (кожа, эластичная, ручная работа)"
+
+#: functions.php:972 functions.php:974 page_cp_pins.php:105
+#: page_cp_pins.php:111 page_cp_pins.php:346 page_cp_pins.php:352
+#: page_cp_pins.php:534 page_cp_pins.php:540
+msgid "Price e.g. 23.45"
+msgstr "Цена в рублях"
+
+#: functions.php:978
+msgid "Category for New Board"
+msgstr "Категория коллекции"
+
+#: functions.php:987
+msgid "All items loaded"
+msgstr "Загружено"
+
+#: functions.php:988
+msgid "Add Another Pin"
+msgstr "Добавить еще одну вещь"
+
+#: functions.php:989 page_cp_pins.php:130 page_cp_pins.php:393
+#: page_cp_pins.php:581
+msgid "Add new board..."
+msgstr "Добавить новую коллекцию"
+
+#: functions.php:990
+msgid "Board already exists. Please try another title."
+msgstr "Такая коллекция уже есть. выберите другое название."
+
+#: functions.php:991
+msgid "Error. Please try again."
+msgstr "Ошибочка. Попробуйте еще."
+
+#: functions.php:992 page_cp_boards.php:113 page_cp_pins.php:602
+#: page_cp_settings.php:641
+msgid "Cancel"
+msgstr "Отменить"
+
+#: functions.php:994
+msgid "comment"
+msgstr "комментарий"
+
+#: functions.php:995
+msgid "comments"
+msgstr "комментарии"
+
+#: functions.php:996 page_cp_pins.php:128 page_cp_pins.php:383
+#: page_cp_pins.php:571
+msgid "Enter new board title"
+msgstr "Введите название новой коллекции"
+
+#: functions.php:1000 page_cp_pins.php:280
+#, php-format
+msgid "Image is too small (min size: %d x %dpx)"
+msgstr "Картинка слишком маленькая (минимальный размер: %d x %d px)"
+
+#: functions.php:1001
+msgid "Incorrect Username/Password"
+msgstr "Неправильное имя пользователя или пароль"
+
+#: functions.php:1002
+msgid "Invalid image file. Please choose a JPG/GIF/PNG file."
+msgstr "Неправильная картинка. Выбирайте  .jpg / .png / .gif ."
+
+#: functions.php:1004
+msgid "Loading..."
+msgstr "Гружу..."
+
+#: functions.php:1006
+msgid "Notifications (Latest 30)"
+msgstr "Последние уведомления"
+
+#: functions.php:1007 single-pin.php:507
+msgid "onto"
+msgstr "в"
+
+#: functions.php:1008
+msgid "Please create a new board"
+msgstr "Создайте новую коллекцию, пожалуйста."
+
+#: functions.php:1009
+msgid "Please enter title"
+msgstr "Введите название, пожалуйста."
+
+#: functions.php:1010
+msgid "Please login or register here"
+msgstr "Войдите или зерегистрируйтесь здесь"
+
+#: functions.php:1011
+msgid "Please type a comment"
+msgstr "Впишите ваш комментарий"
+
+#: functions.php:1014
+msgid "Pinned to"
+msgstr "Еще в "
+
+#: functions.php:1015
+msgid "Please enter both username and password."
+msgstr "Пожалуйста введите логин и пароль"
+
+#: functions.php:1016
+msgid "Please enter url"
+msgstr "Введите ссылку url"
+
+#: functions.php:1017 single-pin.php:48
+msgid "Repin"
+msgstr "Добавить в коллекцию"
+
+#: functions.php:1018 single-pin.php:491
+msgid "Repins"
+msgstr "Вещи"
+
+#: functions.php:1019
+msgid "Repinned to"
+msgstr "Сохранены в "
+
+#: functions.php:1020
+msgid "See This Pin"
+msgstr "Смотреть вещь"
+
+#: functions.php:1021
+msgid "See All"
+msgstr "Посмотреть все"
+
+#: functions.php:1022
+msgid "Share it with your friends"
+msgstr "Рассказать друзьям"
+
+#: functions.php:1024
+msgid "Sorry, unable to find any pinnable items."
+msgstr "Извините, изображение не найдено."
+
+#: functions.php:1028
+msgid "Video"
+msgstr "Видео"
+
+#: functions.php:1030
+msgid "Your pin is pending review"
+msgstr "Ваша вещь находится на рассмотрении."
+
+#: functions.php:1192
+#, php-format
+msgid "%s min ago"
+msgstr "%s минута назад"
+
+#: functions.php:1194
+#, php-format
+msgid "%s mins ago"
+msgstr "%s минут назад"
+
+#: functions.php:1203
+#, php-format
+msgid "%s hour ago"
+msgstr "%s час назад"
+
+#: functions.php:1205
+#, php-format
+msgid "%s hours ago"
+msgstr "%s часов назад"
+
+#: functions.php:1214
+#, php-format
+msgid "%s day ago"
+msgstr "%s день назад"
+
+#: functions.php:1216
+#, php-format
+msgid "%s days ago"
+msgstr "%s дней назад"
+
+#: functions.php:1302
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:1317
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий на модерации."
+
+#: functions.php:1560
+#, php-format
+msgid "%s repinned your \"%s\" pin at %s"
+msgstr "%s вашу вещь добавили \"%s\" в %s"
+
+#: functions.php:1562 functions.php:1658 functions.php:1808 functions.php:1963
+#, php-format
+msgid "To change your notification settings, visit %s"
+msgstr "Поменять ваши настройки уведомлений %s"
+
+#: functions.php:1563
+#, php-format
+msgid "[%s] Someone repinned your pin"
+msgstr "[%s] Кто-то добавил вашу вещь в свою коллекцию"
+
+#: functions.php:1656
+#, php-format
+msgid "%s liked your \"%s\" pin at %s"
+msgstr "Ваша вещь понравилась пользователю %s в коллекции \"%s\"  %s"
+
+#: functions.php:1659
+#, php-format
+msgid "[%s] Someone liked your pin"
+msgstr "[%s] Кому-то понравилась ваша вещь"
+
+#: functions.php:1806
+#, php-format
+msgid "%s is now following you. View %s's profile at %s"
+msgstr "%s теперь следит за вами. Посмотреть профиль %s's тут %s"
+
+#: functions.php:1809
+#, php-format
+msgid "[%s] Someone is following you"
+msgstr "[%s] Кто-то следит за вами"
+
+#: functions.php:1961
+#, php-format
+msgid "%s commented on your \"%s\" pin at %s"
+msgstr "%s комментарий \"%s\" к вашей вещи %s"
+
+#: functions.php:1964
+#, php-format
+msgid "[%s] Someone commented on your pin"
+msgstr "[%s] Кто-то прокомментировал вашу вещь"
+
+#: functions.php:1971
+#, php-format
+msgid "New comment on the pin \"%s\""
+msgstr "Новый комментарий к вещи \"%s\""
+
+#: functions.php:1972
+#, php-format
+msgid "Author : %1$s (IP: %2$s , %3$s)"
+msgstr "Автор : %1$s (IP: %2$s , %3$s)"
+
+#: functions.php:1973
+#, php-format
+msgid "E-mail : %s"
+msgstr "Email : %s"
+
+#: functions.php:1974
+#, php-format
+msgid "URL    : %s"
+msgstr "Ссылка url    : %s"
+
+#: functions.php:1975
+#, php-format
+msgid "Whois  : http://whois.arin.net/rest/ip/%s"
+msgstr "Whois  : http://whois.arin.net/rest/ip/%s"
+
+#: functions.php:1976
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: functions.php:1977
+msgid "You can see all comments on this pin here:"
+msgstr "Все комментарии к этой вещи тут:"
+
+#: functions.php:1979
+#, php-format
+msgid "Permalink: %s"
+msgstr "Ссылка на источник: %s"
+
+#: functions.php:1980
+#, php-format
+msgid "Delete it: %s"
+msgstr "Удалить: %s"
+
+#: functions.php:1981
+#, php-format
+msgid "Spam it: %s"
+msgstr "В спам: %s"
+
+#: functions.php:1982
+#, php-format
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr "[%1$s] Комментарий: \"%2$s\""
+
+#: functions.php:3550
+msgid "Description"
+msgstr "Описание"
+
+#: functions.php:3721
+msgid "Add a new board first..."
+msgstr "Сначала создайте новую коллекцию..."
+
+#: functions.php:3763
+#, php-format
+msgid "Hi %s"
+msgstr "Привет %s, это сообщение с сайта mmade.by"
+
+#: functions.php:3764
+#, php-format
+msgid "Ref: %s"
+msgstr "Ссылка: %s"
+
+#: functions.php:3765
+#, php-format
+msgid "%s messsage:"
+msgstr "Пользователь %s написал вам личное сообщение:"
+
+#: functions.php:3766
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:3767
+msgid "If you are interested please reply this email. If no just delete it."
+msgstr ""
+"Если вы заинтересовались, ответьте на это письмо со своей электронной почты, "
+"если нет просто удалите. Отправитель никогда не узнает ваш электронный адрес."
+
+#: functions.php:3768
+#, php-format
+msgid "View %s's profile at %s"
+msgstr "Посмотреть %s's профиль %s"
+
+#: functions.php:3771
+#, php-format
+msgid "User %s sent you a message from %s"
+msgstr "Пользователь %s отправил вам сообщение из %s"
+
+#: functions.php:3773
+#, php-format
+msgid "%s sent private message to %s on page (%s)"
+msgstr "%s прислал приватное сообщение %s на странице (%s)"
+
+#: functions.php:3774 functions.php:3775
+#, php-format
+msgid "%s profile (%s)"
+msgstr "%s профиль (%s)"
+
+#: functions.php:3776
+msgid "Don't reply this message. It's private!"
+msgstr ""
+
+#: functions.php:3778
+#, php-format
+msgid "Copy: %s sent %s private message from %s"
+msgstr ""
+
+#: functions.php:3811
+#, php-format
+msgid "User(%s) reported the \"%s\" pin."
+msgstr "Пользователь(%s) пожаловался на \"%s\" ."
+
+#: functions.php:3813
+#, php-format
+msgid "An unregistered user reported the \"%s\" pin."
+msgstr "Не зарегистрированный пользователь пожаловался на  \"%s\" ."
+
+#: functions.php:3815
+#, php-format
+msgid "Message: %s"
+msgstr "Сообщение: %s"
+
+#: functions.php:3816
+#, php-format
+msgid "View pin at %s"
+msgstr "Посмотреть вещь в %s"
+
+#: functions.php:3817
+#, php-format
+msgid "[%s] Someone reported a pin"
+msgstr "[%s] Кто-то пожаловался на вещь"
+
+#: header.php:95 header.php:115 page_cp_pins.php:306 page_cp_pins.php:414
+msgid "Add Pin"
+msgstr "Добавить вещь"
+
+#: header.php:103 header.php:116 page_cp_boards.php:73 page_cp_boards.php:94
+msgid "Add Board"
+msgstr "Добавить коллекцию"
+
+#: header.php:118 page_following.php:11
+msgid "Following Feed"
+msgstr "Мои подписки"
+
+#: header.php:119
+msgid "Profile &amp; Pins"
+msgstr "Мой профиль"
+
+#: header.php:120 page_cp_settings.php:309
+msgid "Settings"
+msgstr "Настройки"
+
+#: header.php:122
+msgid "WP Admin"
+msgstr "Режим Бога"
+
+#: header.php:124
+msgid "Log Out"
+msgstr "Выйти"
+
+#: header.php:127 page_cp_notifications.php:32
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: header.php:147
+msgid "Find us on Facebook"
+msgstr "Мы в Facebook"
+
+#: header.php:151
+msgid "Follow us on Twitter"
+msgstr "Мы в Twitter"
+
+#: header.php:154
+msgid "Subscribe to RSS Feed"
+msgstr "Подписаться на RSS"
+
+#: header.php:160 header.php:170 search.php:25 search.php:213 search.php:329
+#: search.php:389 search.php:547 searchform.php:3 searchform.php:5
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/includes/class-options-framework-admin.php:64
+#, php-format
+msgid ""
+"Your current theme does not have support for the Options Framework plugin.  "
+"<a href=\"%1$s\" target=\"_blank\">Learn More</a> | <a href=\"%2$s\">Hide "
+"Notice</a>"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:121
+#: inc/includes/class-options-framework-admin.php:122
+msgid "Theme Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:245
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:276
+msgid "Default options restored."
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:330
+msgid "Options saved."
+msgstr "Сохранено"
+
+#: inc/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:66
+#: inc/includes/class-options-media-uploader.php:121
+msgid "Upload"
+msgstr "Загрузить"
+
+#: inc/includes/class-options-media-uploader.php:68
+#: inc/includes/class-options-media-uploader.php:122
+msgid "Remove"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Смотреть файл"
+
+#: inc/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: index-masonry-inc.php:80 single-pin.php:165
+msgid "Pending Review"
+msgstr "Ожидает подтверждения модератора"
+
+#: index-masonry.php:59
+msgid "Start following some users or boards to fill this space up"
+msgstr "Начните следить за авторами и их коллекциями"
+
+#: ipin_fetch.php:73 ipin_fetch.php:77
+msgid "Invalid content"
+msgstr "Неверное содержание"
+
+#: options.php:74
+msgid "General"
+msgstr ""
+
+#: options.php:78
+msgid "Color Scheme"
+msgstr ""
+
+#: options.php:82
+msgid "Light"
+msgstr ""
+
+#: options.php:82
+msgid "Dark"
+msgstr ""
+
+#: options.php:85
+msgid "Show Frontpage's Pins Based On"
+msgstr ""
+
+#: options.php:89 options.php:103
+msgid "Most Likes"
+msgstr "Больше всего лайков"
+
+#: options.php:89 options.php:103
+msgid "Most Repins"
+msgstr ""
+
+#: options.php:89 options.php:103
+msgid "Most Comments"
+msgstr "Больше всего комментариев"
+
+#: options.php:89
+msgid "Random"
+msgstr ""
+
+#: options.php:89 options.php:103
+msgid "Show All"
+msgstr ""
+
+#: options.php:92 options.php:106
+msgid " Over Last X Days (only for Most Likes/Repins/Comments)"
+msgstr ""
+
+#: options.php:99
+msgid "Show Popular Page's Pins Based On"
+msgstr ""
+
+#: options.php:113
+msgid ""
+"When your site is new, select \"Show All\" so that the frontpage & popular "
+"page will not be blank. As the pins get more likes, repins or comments, "
+"select as appropriate."
+msgstr ""
+
+#: options.php:117
+msgid "Header Logo Image"
+msgstr ""
+
+#: options.php:118
+msgid ""
+"Logo height should be 50px. Width is flexible. Leave blank to use site title "
+"text."
+msgstr ""
+
+#: options.php:123
+msgid "Pin It Button Image"
+msgstr ""
+
+#: options.php:124
+msgid "Leave blank to use text for Pin It Button at <a href=\""
+msgstr ""
+
+#: options.php:129
+msgid "Default Avatar"
+msgstr ""
+
+#: options.php:130
+msgid ""
+"Recommended size: 96 x 96px. Leave blank to use <a target=\"_blank\" href=\""
+msgstr ""
+
+#: options.php:135
+msgid "Top Header Message for Non Logged-in Users"
+msgstr ""
+
+#: options.php:141
+msgid "Social Icon Urls"
+msgstr ""
+
+#: options.php:142
+msgid "Facebook Url. Leave blank to hide facebook icon in header"
+msgstr ""
+
+#: options.php:148
+msgid "Twitter Url. Leave blank to hide twitter icon in header"
+msgstr ""
+
+#: options.php:154
+msgid "Frontpage Comments Number"
+msgstr ""
+
+#: options.php:155
+msgid "Enter 0 to hide comments on frontpage"
+msgstr ""
+
+#: options.php:161
+msgid "Facebook Comments"
+msgstr ""
+
+#: options.php:162
+msgid "If enabled, Facebook Comments box will be displayed in single post"
+msgstr ""
+
+#: options.php:166 options.php:174 options.php:182 options.php:190
+#: options.php:206 options.php:214 options.php:222 options.php:243
+msgid "Enable"
+msgstr ""
+
+#: options.php:166 options.php:174 options.php:182 options.php:190
+#: options.php:206 options.php:214 options.php:222 options.php:243
+msgid "Disable"
+msgstr ""
+
+#: options.php:169
+msgid "Show Repins"
+msgstr ""
+
+#: options.php:170
+msgid "If disabled, repins are hidden from the front, categories and tags page"
+msgstr ""
+
+#: options.php:177
+msgid "Infinite Scroll"
+msgstr ""
+
+#: options.php:178
+msgid ""
+"If disabled, the normal pagination links are displayed. The theme is "
+"compatible with the <a href=\"http://wordpress.org/extend/plugins/wp-"
+"pagenavi/\">WP-PageNavi</a> plugin, but must be deactivated if you re-enable "
+"infinite scroll."
+msgstr ""
+
+#: options.php:185
+msgid "Lightbox"
+msgstr ""
+
+#: options.php:186
+msgid ""
+"If disabled, clicking on the frontpage thumbnails will go to the single post "
+"instead of opening in a lightbox."
+msgstr ""
+
+#: options.php:193
+msgid "Form Title & Description"
+msgstr ""
+
+#: options.php:194
+msgid "For use in add/edit pins forms"
+msgstr ""
+
+#: options.php:198
+msgid "Show Single Description Field"
+msgstr ""
+
+#: options.php:198
+msgid "Show Separate Title & Description Field"
+msgstr ""
+
+#: options.php:201
+msgid "Allow HTML Code"
+msgstr ""
+
+#: options.php:202
+msgid "If enabled, the html editor will be displayed on the description field."
+msgstr ""
+
+#: options.php:209
+msgid "Allow Tags Input"
+msgstr ""
+
+#: options.php:210
+msgid "If enabled, users can add tags to pins."
+msgstr ""
+
+#: options.php:217
+msgid "Allow Source Input"
+msgstr ""
+
+#: options.php:218
+msgid "If enabled, users can add source url to pins."
+msgstr ""
+
+#: options.php:225
+msgid "Allow Price Input/Currency Symbol"
+msgstr ""
+
+#: options.php:226
+msgid ""
+"Default is $. Leave blank to disable price input and price tag shown in top "
+"left corner of the pin."
+msgstr ""
+
+#: options.php:235
+msgid "Currency symbol on the left"
+msgstr ""
+
+#: options.php:235
+msgid "Currency symbol on the right"
+msgstr ""
+
+#: options.php:238
+msgid "Allow Users to Delete Own Account"
+msgstr ""
+
+#: options.php:239
+msgid "If enabled, users can delete their own account in the <a href=\""
+msgstr ""
+
+#: options.php:246
+msgid "Auto Create These Boards for New Users"
+msgstr ""
+
+#: options.php:247
+msgid ""
+"Enter board names seperated by commas e.g My First Board, Gadgets, Humour"
+msgstr ""
+
+#: options.php:253
+msgid ""
+"Enter category ID for each board as above e.g 1, 4, 2. You can find the "
+"category ID at <a href=\""
+msgstr ""
+
+#: options.php:266
+msgid "Outgoing Email Settings"
+msgstr "Настройки Email сообщений"
+
+#: options.php:267
+msgid "Email address"
+msgstr "Email адрес"
+
+#: options.php:273
+msgid "From whom"
+msgstr ""
+
+#: options.php:279
+msgid ""
+"Your email \"From\" field. For user email notifications for likes, follows, "
+"comments etc."
+msgstr ""
+
+#: options.php:283
+msgid "Prune Schedule"
+msgstr ""
+
+#: options.php:284
+msgid "posts every"
+msgstr ""
+
+#: options.php:290
+msgid "mins"
+msgstr ""
+
+#: options.php:296
+msgid ""
+"When a user delete a pin or a board, the posts are marked as prune for "
+"deletion later. Depending on your server load, you can adjust how often the "
+"system delete these posts."
+msgstr ""
+
+#: options.php:300
+msgid "Captcha for Register/Login Form"
+msgstr ""
+
+#: options.php:301
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: options.php:307
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: options.php:313
+msgid ""
+"Sign up for the keys at <a href=\"http://www.google.com/recaptcha/\">Google "
+"reCAPTCHA</a>. Leave blank to hide captcha."
+msgstr ""
+
+#: options.php:317
+msgid "Terms of Service Page for Register Form"
+msgstr ""
+
+#: options.php:318
+msgid "Go to <a href=\""
+msgstr ""
+
+#: options.php:324
+msgid "Category For Blog"
+msgstr ""
+
+#: options.php:325
+msgid ""
+"Hide blog category from the Add/Edit Board page. Leave blank if you do not "
+"need a blog yet."
+msgstr ""
+
+#: options.php:332
+msgid "Header Scripts"
+msgstr ""
+
+#: options.php:333
+msgid "Add scripts before the &lt;/head> tag"
+msgstr ""
+
+#: options.php:338
+msgid "Footer Scripts"
+msgstr ""
+
+#: options.php:339
+msgid "Add scripts before the &lt;/body> tag e.g Google Analytics"
+msgstr ""
+
+#: options.php:353
+msgid "Advertisement"
+msgstr "Реклама"
+
+#: options.php:357
+msgid "Header Advertisement"
+msgstr ""
+
+#: options.php:358
+msgid "HTML / PHP / Javascript allowed."
+msgstr ""
+
+#: options.php:363
+msgid "Single Post - Above Photo"
+msgstr ""
+
+#: options.php:364
+msgid ""
+"Recommended Width: 700px or lower. HTML / PHP / Javascript allowed. Note: "
+"Javascript based ads like adsense may not appear in the lightbox, only in "
+"single posts."
+msgstr ""
+
+#: options.php:369
+msgid "Single Post - Below Photo"
+msgstr ""
+
+#: options.php:370
+msgid ""
+"Recommended Width: 700px or lower. HTML / PHP / Javascript allowed. Note: "
+"Javascript based ads like adsense may not appear in the lightbox, only in "
+"single posts"
+msgstr ""
+
+#: options.php:375
+msgid "Frontpage Thumbnail Ad #1"
+msgstr ""
+
+#: options.php:376
+msgid "Display before X(th) thumbnail"
+msgstr ""
+
+#: options.php:383 options.php:396 options.php:409 options.php:422
+#: options.php:435
+msgid "Recommended Width: 200px or lower. HTML / PHP / Javascript allowed."
+msgstr ""
+
+#: options.php:388
+msgid "Frontpage Thumbnail Ad #2"
+msgstr ""
+
+#: options.php:389 options.php:402 options.php:415 options.php:428
+msgid "Display at X(th) position"
+msgstr ""
+
+#: options.php:401
+msgid "Frontpage Thumbnail Ad #3"
+msgstr ""
+
+#: options.php:414
+msgid "Frontpage Thumbnail Ad #4"
+msgstr ""
+
+#: options.php:427
+msgid "Frontpage Thumbnail Ad #5"
+msgstr ""
+
+#: options.php:440
+msgid "Notes"
+msgstr ""
+
+#: options.php:444
+msgid ""
+"\n"
+"\t\t<h2>Recommended Plugins</h2>\n"
+"\t\t<ol>\n"
+"\t\t<li><a href=\"http://wordpress.org/extend/plugins/wp-super-cache/\" "
+"target=\"_blank\">WP Super Cache</a></li>\n"
+"\t\t<ul>\n"
+"\t\t<li>- Advanced Tab: \"Don't cache pages for known users\" must be "
+"ticked</li>\n"
+"\t\t</ul>\n"
+"\t\t<li><a href=\"http://wordpress.org/plugins/wordpress-social-login/\" "
+"target=\"_blank\">WordPress Social Login</a> (allow users to login with "
+"Facebook or Twitter)</li>\n"
+"\t\t<ul>\n"
+"\t\t<li>- Networks Tab: tested only with Facebook, Twitter & Google</li>\n"
+"\t\t<li>- Bouncer Tab: features not supported</li>\n"
+"\t\t<li>- Widget Tab:<br />--- Users avatars: Display the default users "
+"avatars<br />--- Authentication flow: No popup window</li>\n"
+"\t\t</ul>\n"
+"\t\t</ol>\n"
+"\n"
+"\t\t<hr style=\"border:none;border-top:1px solid #ccc;color\" />\n"
+"\t\t<h2>Adding Pins</h2>\n"
+"\t\t<p>All users should add pins from the frontend (top right corner)  > Add "
+"> <a href=\""
+msgstr ""
+
+#: page.php:20 page_full_width.php:22 page_full_width_100percet.php:26
+#: page_no_sidebar.php:23 page_no_sidebar_wide.php:23
+msgid "Edit Page"
+msgstr "Редактировать"
+
+#: page_cp_boards.php:33 page_cp_boards.php:83
+msgid "Title"
+msgstr "Название"
+
+#: page_cp_boards.php:39 page_cp_boards.php:89
+msgid "Select a Category"
+msgstr "Выбрать категорию"
+
+#: page_cp_boards.php:45 page_cp_settings.php:561
+msgid "Save Settings"
+msgstr "Сохранить"
+
+#: page_cp_boards.php:50 page_cp_boards.php:114
+msgid "Delete Board"
+msgstr "Удалить коллекцию"
+
+#: page_cp_boards.php:60
+msgid "No boards found."
+msgstr "Коллекций не найдено"
+
+#: page_cp_boards.php:109
+msgid "All pins on this board will also be deleted."
+msgstr "Все вещи из этой коллекции тоже будут удалены!!!"
+
+#: page_cp_boards.php:109
+msgid "Are you sure you want to permanently delete this board?"
+msgstr "Вы ТОЧНО уверены, что хотите удалить эту коллекцию навсегда?"
+
+#: page_cp_login.php:30
+msgid "Logged Out Successfully"
+msgstr "Вы вышли из системы"
+
+#: page_cp_login.php:40
+msgid "Your password has been reset."
+msgstr "Ваш пароль был сброшен."
+
+#: page_cp_login.php:42
+msgid "User registration is currently closed."
+msgstr "Регистрация завершена успешно."
+
+#: page_cp_login.php:44
+msgid "To activate account, please check your email for verification link."
+msgstr "Для активации вашей учетной записи, пожалуйста проверьте ваш Email."
+
+#: page_cp_login.php:46
+msgid ""
+"Account not activated yet. Please check your email for verification link."
+msgstr ""
+"Ваша учетная записи еще не активированна, пожалуйста проверьте ваш Email."
+
+#: page_cp_login.php:53
+msgid "Verification success. You may login now."
+msgstr "Ваша учетная запись активирована. Теперь вы можете войти на сайт."
+
+#: page_cp_login.php:55 page_cp_settings.php:355
+msgid "Invalid verification key"
+msgstr "Неправильный код подтверждения."
+
+#: page_cp_login.php:58
+msgid "Incorrect Username"
+msgstr "Неверное имя пользователя"
+
+#: page_cp_login.php:58
+msgid "Captcha"
+msgstr "Captcha"
+
+#: page_cp_login.php:95
+msgid "Don't have an account? Sign Up Now"
+msgstr "У вас нет аккаунта? Зарегистрируйтесь!"
+
+#: page_cp_login_lpw.php:32 page_cp_register.php:145
+msgid "The passwords do not match."
+msgstr "Пароли не совпадает"
+
+#: page_cp_login_lpw.php:34
+msgid "Passwords must be at least 6 characters long."
+msgstr "Пароль должен содержать более 6 символов."
+
+#: page_cp_login_lpw.php:66
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>ERROR</strong>: Введите имя пользователя или Email адрес."
+
+#: page_cp_login_lpw.php:70
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>ERROR</strong>: Пользователя с таким именем не существует."
+
+#: page_cp_login_lpw.php:87
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ERROR</strong>: Неверное имя пользователя или Email."
+
+#: page_cp_login_lpw.php:125
+msgid "Password reset is not allowed for this user"
+msgstr "Восстановление пароля не допускается для этого пользователя"
+
+#: page_cp_login_lpw.php:150
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Кто-то запрашивает изменение пароля для этого аккаунта:"
+
+#: page_cp_login_lpw.php:152 page_cp_register.php:52 page_cp_register.php:76
+#: page_cp_register.php:225
+#, php-format
+msgid "Username: %s"
+msgstr "Имя пользователя %s"
+
+#: page_cp_login_lpw.php:153
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Если это письмо пришло к вам случайно, ничего не делайте."
+
+#: page_cp_login_lpw.php:154
+msgid "To reset your password, visit the following address:"
+msgstr "Чтобы изменить пароль, перейдите на эту страницу:"
+
+#: page_cp_login_lpw.php:166
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Изменить пароль"
+
+#: page_cp_login_lpw.php:191
+msgid "The e-mail could not be sent."
+msgstr "Письмо не может быть отправлено."
+
+#: page_cp_login_lpw.php:191
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "Возможная причина: ваш поставщик хостинга отключил функцию почты."
+
+#: page_cp_login_lpw.php:205
+msgid "Lost Your Password?"
+msgstr "Забыли пароль?"
+
+#: page_cp_login_lpw.php:210
+msgid "Check your e-mail for the confirmation link."
+msgstr "Проверьте вашу электронную почту для подтверждения."
+
+#: page_cp_login_lpw.php:212
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Извините, ключ  является недопустимым."
+
+#: page_cp_login_lpw.php:234
+msgid "Get New Password"
+msgstr "Получить новый пароль"
+
+#: page_cp_login_lpw.php:237
+msgid "You will receive a link to create a new password via email."
+msgstr "Вы получите ссылку , чтобы создать новый пароль на email."
+
+#: page_cp_login_lpw.php:240
+msgid "Reset Password"
+msgstr "Изменить пароль"
+
+#: page_cp_login_lpw.php:250
+msgid "New password"
+msgstr "Новый пароль"
+
+#: page_cp_login_lpw.php:255
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+#: page_cp_notifications.php:33
+msgid "Only notifications from last 30 days are available for viewing"
+msgstr "Только уведомления за последние 30 дней доступны для просмотра"
+
+#: page_cp_notifications.php:37
+msgid "No Notifications Yet."
+msgstr "Пока ничего нет. о_О"
+
+#: page_cp_notifications.php:70
+msgid "liked your"
+msgstr "понравилась ваша"
+
+#: page_cp_notifications.php:74
+msgid "repinned your"
+msgstr "добавил вашу"
+
+#: page_cp_notifications.php:78
+msgid "is following you"
+msgstr "следит за вами"
+
+#: page_cp_notifications.php:81
+msgid "commented on your"
+msgstr "прокомментировал вашу"
+
+#: page_cp_pins.php:32
+msgid "Edit Pin"
+msgstr "Редактировать"
+
+#: page_cp_pins.php:117 page_cp_pins.php:358 page_cp_pins.php:546
+msgid "Needs to preorder"
+msgstr "Предзаказ"
+
+#: page_cp_pins.php:124 page_cp_pins.php:365 page_cp_pins.php:553
+msgid "Source e.g. http://domain.com/link"
+msgstr "Ссылка на вещь на вашем сайте"
+
+#: page_cp_pins.php:134
+msgid "Save Pin"
+msgstr "Добавить вещь"
+
+#: page_cp_pins.php:139 page_cp_pins.php:603
+msgid "Delete Pin"
+msgstr "Удалить вещь"
+
+#: page_cp_pins.php:149
+msgid "No pins found."
+msgstr "Ничего нет."
+
+#: page_cp_pins.php:282
+msgid "Invalid image file."
+msgstr "Неверный файл изображения."
+
+#: page_cp_pins.php:286
+msgid "Unable to fetch image from remote site"
+msgstr "Невозможно получить изображение с удаленного объекта"
+
+#: page_cp_pins.php:288
+msgid "Please save image onto device and upload from device."
+msgstr ""
+"Пожалуйста, сохраните изображение на устройстве и загружать с устройства."
+
+#: page_cp_pins.php:396 page_cp_pins.php:584
+msgid "Pin It"
+msgstr "Добавить вещь"
+
+#: page_cp_pins.php:421
+msgid "From Device"
+msgstr "Добавить изображение"
+
+#: page_cp_pins.php:424 page_cp_settings.php:570 page_cp_settings.php:596
+msgid "Browse &amp; Upload"
+msgstr "Найти и Загрузить"
+
+#: page_cp_pins.php:440
+msgid "From Web"
+msgstr "Из интернета"
+
+#: page_cp_pins.php:447
+msgid "Fetch"
+msgstr ""
+
+#: page_cp_pins.php:467
+msgid "Pin It Bookmarklet"
+msgstr "Волшебная кнопка \"Добавь вещь\""
+
+#: page_cp_pins.php:469
+msgid ""
+"Drag the above button to your bookmarks/favorites toolbar. Then click to pin "
+"an image from any website. You can also pin videos from"
+msgstr ""
+"Перетяните эту кнопку на панель закладок вашего браузера. Перейдите на ваш "
+"сайт и нажмите на нее. Выберите картинку и она автоматически добавит запись "
+"на mmade.by. Магия! Так же можно добавлять видео из "
+
+#: page_cp_pins.php:469
+msgid "youtube.com/vimeo.com"
+msgstr "youtube.com / vimeo.com"
+
+#: page_cp_pins.php:487
+msgid "Pin It Button"
+msgstr "Кнопка \"Добавь вещь\""
+
+#: page_cp_pins.php:490 page_cp_pins.php:494
+msgid ""
+"Make it easy for people to pin from your site. Copy the code below and paste "
+"it where you want the button to appear on your website."
+msgstr ""
+"Добавь эту кнопку себе на сайт. Все могут расшаривать твои работы на mmade.by"
+
+#: page_cp_pins.php:599
+msgid "Are you sure you want to permanently delete this pin?"
+msgstr "Вы уверены что хотите удалить эту вещь безвозвратно?"
+
+#: page_cp_register.php:27
+msgid "<strong>ERROR</strong>: Enter email address."
+msgstr "<strong>Ошибка</strong>: Введите Email"
+
+#: page_cp_register.php:51 page_cp_register.php:75 page_cp_register.php:224
+#, php-format
+msgid "Thank you for registering with %s."
+msgstr "Спасибо за регистрацию через %s."
+
+#: page_cp_register.php:53 page_cp_register.php:77 page_cp_register.php:227
+#: page_cp_settings.php:238
+msgid "Please click the link to verify your email:"
+msgstr "Перейдите по этой ссылке для того, чтоб подтвердить свой Email:"
+
+#: page_cp_register.php:56 page_cp_register.php:80 page_cp_register.php:230
+#, php-format
+msgid "[%s] Account Registration"
+msgstr "[%s] Регистрация аккунта"
+
+#: page_cp_register.php:60 page_cp_register.php:84
+msgid "<strong>ERROR</strong>: Account is already activated."
+msgstr "<strong>Ошибка</strong>: Аккаунт уже зарегистрирован."
+
+#: page_cp_register.php:63 page_cp_register.php:87
+msgid "<strong>ERROR</strong>: Email not found."
+msgstr "<strong>Ошибка</strong>: Email не найден."
+
+#: page_cp_register.php:119 page_cp_settings.php:21 page_cp_settings.php:171
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>Ошибка</strong>: Введите имя пользователя."
+
+#: page_cp_register.php:121 page_cp_settings.php:23 page_cp_settings.php:215
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>Ошибка</strong>: Это имя пользователя не может быть зарегистрировано "
+"так как содержит неразрешенные символы. Попробуйте другое."
+
+#: page_cp_register.php:124 page_cp_settings.php:26 page_cp_settings.php:218
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Ошибка</strong>: Такой пользователь уже зарегистрирован. Выберите "
+"другое имя пользователя."
+
+#: page_cp_register.php:129
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>Ошибка</strong>: Напишите свой Email."
+
+#: page_cp_register.php:131 page_cp_settings.php:225
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>Ошибка</strong>: Email адрес какой-то не правильный."
+
+#: page_cp_register.php:134 page_cp_settings.php:227
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>Ошибка</strong>: Этот Email уже зарегистрирован. Выберите другой "
+"пожалуйста."
+
+#: page_cp_register.php:139
+msgid "Password cannot be blank."
+msgstr "Поля пароля не может быть пустым."
+
+#: page_cp_register.php:167
+msgid "Antispam field is incorrect."
+msgstr "Поле антиспама заполнено не корректно."
+
+#: page_cp_register.php:208
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>Ошибка</strong>: Не можем вас зарегистрировать. Пожалуйста сообщите "
+"<a href=\"mailto:%s\">администратору</a> об этой проблеме. Спасибо!"
+
+#: page_cp_register.php:226
+#, php-format
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+#: page_cp_register.php:252
+msgid "Resend Activation Email"
+msgstr "Выслать письмо активации еще раз."
+
+#: page_cp_register.php:255
+msgid "Please check your email for activation."
+msgstr "Проверьте ваш Email на наличие письма активации."
+
+#: page_cp_register.php:264 page_cp_register.php:305 page_cp_settings.php:364
+msgid "Email"
+msgstr "Email"
+
+#: page_cp_register.php:279
+msgid "Resend"
+msgstr "Переслать"
+
+#: page_cp_register.php:282
+msgid "Check your junk/spam folder if you did not receive the activation email"
+msgstr ""
+"Если долго не приходит письмо активации, проверьте папку <strong>спам</"
+"strong> в вашей электронной почте."
+
+#: page_cp_register.php:300
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: page_cp_register.php:315 page_cp_settings.php:378
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: page_cp_register.php:344
+msgid "I Agree To The"
+msgstr "Я согласен(на) на"
+
+#: page_cp_register.php:346
+msgid "Terms of Service"
+msgstr "Правила пользования"
+
+#: page_cp_register.php:355
+msgid "Already have an account? Login now"
+msgstr "Есть аккаунт? Заходи!"
+
+#: page_cp_register.php:359
+msgid "Resend activation email"
+msgstr "Выслать письмо активации еще раз."
+
+#: page_cp_settings.php:121
+msgid "You can&#8217;t give users that role."
+msgstr "Вы не можете присвоить пользователям эту роль."
+
+#: page_cp_settings.php:187 page_cp_settings.php:189
+msgid "<strong>ERROR</strong>: You entered your new password only once."
+msgstr "<strong>Ошибка</strong>: Вы вписали новый пароль только один раз."
+
+#: page_cp_settings.php:198
+msgid "<strong>ERROR</strong>: Please enter your password."
+msgstr "<strong>Ошибка</strong>: Введите ваш пароль пожалуйста."
+
+#: page_cp_settings.php:200
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr "<strong>Ошибка</strong>: Введите пароль 2 раза, пожалкуйста."
+
+#: page_cp_settings.php:205
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+"<strong>Ошибка</strong>: Пароль не должен содержать такие \"\\\" знаки."
+
+#: page_cp_settings.php:209
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the two password "
+"fields."
+msgstr ""
+"<strong>Ошибка</strong>: Введите одинаковые пароли в оба поля паролей "
+"пожалуйста."
+
+#: page_cp_settings.php:223
+msgid "<strong>ERROR</strong>: Please enter an email address."
+msgstr "<strong>Ошибка</strong>: Введите Email."
+
+#: page_cp_settings.php:242
+#, php-format
+msgid "[%s] Email Verification"
+msgstr "[%s] Подтвержение Email"
+
+#: page_cp_settings.php:294
+msgid "No Such User."
+msgstr "Нет такого пользователя."
+
+#: page_cp_settings.php:296
+msgid "Administrator Profile: No Access"
+msgstr "Профиль администратора: Доступ запрещен."
+
+#: page_cp_settings.php:331
+msgid "Change Profile Username? (Days Left:"
+msgstr "Изменить имя пользователя? (Осталось дней:"
+
+#: page_cp_settings.php:335
+msgid "Change"
+msgstr "Изменить"
+
+#: page_cp_settings.php:336
+msgid ""
+"You will be logged out upon successful changing of username. Please login "
+"again with"
+msgstr ""
+"При успешной смене имени пользователя вы будете вылогинены. Пожалуйста "
+"зайдите еще раз с новым именем"
+
+#: page_cp_settings.php:345
+msgid "Settings Saved."
+msgstr "Настройки сохранены."
+
+#: page_cp_settings.php:349
+msgid ""
+"Your email will be changed upon verification. Please check your new email "
+"for verification link."
+msgstr ""
+"Ваш Email адрес будет изменен из-за верификации. Проверьте ваш новый Email "
+"для подтверждения нового адреса."
+
+#: page_cp_settings.php:353
+msgid "Your email has been verified and updated."
+msgstr "Ваш Email адрес был верифицирован и обновлен."
+
+#: page_cp_settings.php:367 page_cp_settings.php:499
+msgid "Invalid email provided by"
+msgstr "Неверный Email"
+
+#: page_cp_settings.php:367 page_cp_settings.php:499
+msgid "Please enter a valid email to receive email notifications."
+msgstr ""
+"Впишите правильный Email адрес для того чтоб получать уведомления об  "
+"активности."
+
+#: page_cp_settings.php:380
+msgid ""
+"If you would like to change the password, type a new one. Otherwise leave "
+"them blank."
+msgstr ""
+"Если вы хотите изменить пароль, впишите. Если не хотите, оставьте поля "
+"пустыми."
+
+#: page_cp_settings.php:388
+msgid "Profile"
+msgstr "Профиль и контактные данные"
+
+#: page_cp_settings.php:388
+msgid "See Your Public Profile"
+msgstr "Посмотреть профиль"
+
+#: page_cp_settings.php:392
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#: page_cp_settings.php:397
+msgid "About"
+msgstr "Пару слов о вас"
+
+#: page_cp_settings.php:398
+msgid "about me"
+msgstr "Коротко о вас и вашем хобби"
+
+#: page_cp_settings.php:399
+msgid "Short description about you and your hobby"
+msgstr "Кратко опишите кто вы и чем занимаетесь."
+
+#: page_cp_settings.php:403
+msgid "Location"
+msgstr "Место нахождения"
+
+#: page_cp_settings.php:404
+msgid "city, country"
+msgstr "Город, Страна"
+
+#: page_cp_settings.php:408
+msgid "Website"
+msgstr "Ваш сайт"
+
+#: page_cp_settings.php:409
+msgid "myweb.com"
+msgstr "http://mmade.by"
+
+#: page_cp_settings.php:413
+msgid "Facebook Username"
+msgstr "Профиль Facebook"
+
+#: page_cp_settings.php:414
+msgid "myfb"
+msgstr "ваш профиль на facebook"
+
+#: page_cp_settings.php:418
+msgid "Twitter Username"
+msgstr "Twitter аккаунт"
+
+#: page_cp_settings.php:419
+msgid "mytwitter"
+msgstr "@профиль"
+
+#: page_cp_settings.php:423
+msgid "Pinterest Username"
+msgstr "Профиль Pinterest"
+
+#: page_cp_settings.php:424
+msgid "mypinterest"
+msgstr "ваш профиль pinterest"
+
+#: page_cp_settings.php:428
+msgid "Google+ ID"
+msgstr "Google+ ID"
+
+#: page_cp_settings.php:429
+msgid "+mygoogle or 123456789"
+msgstr "Ваш google+ или ID"
+
+#: page_cp_settings.php:433
+msgid "VK.com Username"
+msgstr "Ваша страница vkontakte"
+
+#: page_cp_settings.php:434
+msgid "myvkontakte"
+msgstr "ваш профиль vk.com"
+
+#: page_cp_settings.php:438
+msgid "Ok.ru Username"
+msgstr "Профиль в Одноклассниках"
+
+#: page_cp_settings.php:439
+msgid "myodnoklassniki"
+msgstr "ваш профиль на Одноклассниках"
+
+#: page_cp_settings.php:444
+msgid "Contact Email"
+msgstr "Контактный Email адрес "
+
+#: page_cp_settings.php:445
+msgid "contact@example.com (invisible to others)"
+msgstr "контактный Email"
+
+#: page_cp_settings.php:446
+msgid "Invisible for others"
+msgstr ""
+"Скрыт, используется для Сообщений. Для того, чтоб вам не присылали "
+"сообщения, просто оставьте поле пустым."
+
+#: page_cp_settings.php:451
+msgid "Contact Phone Number"
+msgstr "Контактный номер телефона"
+
+#: page_cp_settings.php:452
+msgid "+375 29 7654321"
+msgstr ""
+
+#: page_cp_settings.php:456
+msgid "Contact Skype"
+msgstr "Контактный Skype"
+
+#: page_cp_settings.php:457
+msgid "myskypeid"
+msgstr "ваш Skype"
+
+#: page_cp_settings.php:462
+msgid "Legal"
+msgstr "Юридическая информация"
+
+#: page_cp_settings.php:465
+msgid "Individual/Artisan/Legal"
+msgstr "Юридический статус"
+
+#: page_cp_settings.php:479
+msgid "Legal ID"
+msgstr "Название и УНП"
+
+#: page_cp_settings.php:484
+msgid "Legal Address"
+msgstr "Юридический адрес"
+
+#: page_cp_settings.php:487
+msgid "Legal tips"
+msgstr ""
+"Деятельность регулируется  указом Президента РБ от 16 Мая 2005 г. № 225 \"О "
+"некоторых вопросах осуществления физическими лицами ремесленной деятельности."
+"\" <a href=\"http://www.mmade.by/help/pravo/\"> ссылка </a>"
+
+#: page_cp_settings.php:490
+msgid "Decor"
+msgstr "Оформление"
+
+#: page_cp_settings.php:496
+msgid "Email Notifications"
+msgstr "Уведомления на Email"
+
+#: page_cp_settings.php:513
+msgid "Notify when someone follows me"
+msgstr "... если кто-то начал следить за мной"
+
+#: page_cp_settings.php:526
+msgid "Notify when someone likes my pin"
+msgstr "... кому-то понравилась моя вещь"
+
+#: page_cp_settings.php:540
+msgid "Notify when someone repins my pin"
+msgstr "Уведомить если, кто-то добавил в коллекцию мою вещь"
+
+#: page_cp_settings.php:553
+msgid "Notify when someone comments on My pin"
+msgstr "... если то-то прокомментировал мою вещь"
+
+#: page_cp_settings.php:566
+msgid "Avatar (Recommended 300 x 300px)"
+msgstr "Аватар (Рекомендуем размер изображения 300 x 300px)"
+
+#: page_cp_settings.php:592
+msgid "Profile Cover (Recommended 1500 x 300px)"
+msgstr "Обложка профиля (Рекомендуем размер изображения 1500 x 300px)"
+
+#: page_cp_settings.php:619 page_cp_settings.php:643
+msgid "Delete Account"
+msgstr "Удалить аккаунт."
+
+#: page_cp_settings.php:634
+msgid "All data and profile will be deleted."
+msgstr "Все данные и профиль будут удалены."
+
+#: page_cp_settings.php:634
+msgid "Are you sure you want to permanently delete this account?"
+msgstr "Вы ТОЧНО хотите удалить этот аккаунт?"
+
+#: page_cp_settings.php:636
+msgid ""
+"This is an administrator account. To delete this account, go to WP-Admin > "
+"Users."
+msgstr "Это аккаунт администратора. Чтоб удалить пили в WP-Admin > Users."
+
+#: page_everything.php:10
+msgid "Everything"
+msgstr "Всё"
+
+#: page_full_width_100percet.php:111 single-masonry.php:91
+msgid "Related Pins"
+msgstr "Взаимосвязанные вещи"
+
+#: page_gifts.php:34 page_gifts.php:46 page_popular.php:18
+msgid "All"
+msgstr "Все"
+
+#: page_gifts.php:43
+msgid "Price"
+msgstr "Цена"
+
+#: page_gifts.php:54
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: page_gifts.php:55 search.php:374 search.php:533
+msgid "Most recent"
+msgstr "Самые последние"
+
+#: page_gifts.php:56 search.php:375 search.php:534
+msgid "Most popular"
+msgstr "Самые популрные"
+
+#: page_gifts.php:57 search.php:377 search.php:536
+msgid "Price lowest"
+msgstr "Меньшая цена"
+
+#: page_gifts.php:58 search.php:378 search.php:537
+msgid "Price highest"
+msgstr "Большая цена"
+
+#: page_popular.php:10
+msgid "Popular"
+msgstr "Популярное"
+
+#: page_top_users.php:10
+msgid "Top Users (Most Followers)"
+msgstr "Самые популярные"
+
+#: page_top_users.php:104 page_top_users.php:203 search.php:316
+msgid "Nobody yet."
+msgstr "Пока никого нет."
+
+#: page_top_users.php:114
+msgid "Top Users (Most Pins)"
+msgstr "Самые активные"
+
+#: search.php:8 search.php:363 search.php:387
+msgid "My Own Pins"
+msgstr "Ваши вещи"
+
+#: search.php:12 search.php:323 search.php:328
+msgid "Tags"
+msgstr "Метки"
+
+#: search.php:14 search.php:207 search.php:212 search.php:299 search.php:305
+msgid "Users"
+msgstr "Пользователи"
+
+#: search.php:23 search.php:211 search.php:327 search.php:367 search.php:528
+msgid "Search..."
+msgstr "Поиск"
+
+#: search.php:370 search.php:530
+msgid "All categories"
+msgstr "Все категории"
+
+#: search.php:383 search.php:542
+msgid "Min Price"
+msgstr "Минимальная цена"
+
+#: search.php:384 search.php:543
+msgid "Max Price"
+msgstr "Максимальная цена"
+
+#: sidebar-right.php:135 single-pin.php:419
+msgid "Also from"
+msgstr "Так же из "
+
+#: single-pin.php:54
+msgid "Like"
+msgstr "Нравится / Хочу"
+
+#: single-pin.php:58
+msgid "Cannot Like Own Pin"
+msgstr "Не получается отметить как понравившееся"
+
+#: single-pin.php:68
+msgid "Share on VK.com"
+msgstr "Поделиться vKontakte"
+
+#: single-pin.php:69
+msgid "Share on OK.ru"
+msgstr "Поделиться в Одноклассниках"
+
+#: single-pin.php:75 single-pin.php:532
+msgid "Embed"
+msgstr "Вставить в сайт"
+
+#: single-pin.php:81
+msgid "Zoom"
+msgstr "Увеличить"
+
+#: single-pin.php:86 single-pin.php:574
+msgid "Report"
+msgstr "Жалоба"
+
+#: single-pin.php:332
+msgid "Repinned from"
+msgstr "Добавлено из"
+
+#: single-pin.php:478
+msgid "more likes"
+msgstr "больше понравившихся"
+
+#: single-pin.php:520
+msgid "more repins"
+msgstr "больше вещей"
+
+#: single-pin.php:543
+msgid "px -Image Width"
+msgstr "px -Ширина картинки"
+
+#: single-pin.php:555
+msgid "px -Image Height"
+msgstr "px -Высота картинки"
+
+#: single-pin.php:561
+msgid "Source"
+msgstr "Ресурс"
+
+#: single-pin.php:561
+msgid "via"
+msgstr "от"
+
+#: single-pin.php:561
+msgid "on"
+msgstr "в"
+
+#: single-pin.php:579
+msgid "Please write a little about why you want to report this pin."
+msgstr ""
+"Почему вы хотите пожаловаться на вещь? Может быть её присвоили, а может она "
+"аморальна или просто плохого качества материалы."
+
+#: single-pin.php:580
+msgid "Pin reported. Thank you for your submission."
+msgstr "Жалоба принята. Благодарим вас за вашу бдительность."
+
+#: single-pin.php:582
+msgid "Report Pin"
+msgstr "Отправить жалобу"
+
+#, fuzzy
+#~ msgid "Notify when someone comments on my pin"
+#~ msgstr "... если кто-то прокомментировал мою вещь"
+
+#~ msgid "%s wants to share \"%s\" with you."
+#~ msgstr "%s хочет поделиться \"%s\" с тобой."
+
+#~ msgid "%s said, \"%s\"."
+#~ msgstr "%s сказал, \"%s\"."
+
+#~ msgid "%s wants to share a pin with you from %s"
+#~ msgstr "%s хочет поделиться вещью с вами из %s"
+
+#~ msgid "View board at %s"
+#~ msgstr "Посмотреть коллекцию на %s"
+
+#~ msgid "%s wants to share a board with you from %s"
+#~ msgstr "%s хочет поделиться с вами коллекцией из %s"
