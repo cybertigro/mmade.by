@@ -1,0 +1,23 @@
+{
+  "name": "ulej",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lmhs/mmade.by",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*"
+  },
+  "authors": [
+    "Maksim Łabovič <maksim.labovicz@gmail.com>"
+  ],
+  "devDependencies": {
+    "sass-mediaqueries": "*",
+    "normalize-scss": "~3.0.3"
+  }
+}

@@ -820,9 +820,12 @@ function ipin_parse_request($wp) {
 add_action('parse_request', 'ipin_parse_request');
 //Javascripts
 function ipin_enqueue_scripts() {
-	wp_enqueue_style('ipin-bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
-	wp_enqueue_style('ipin-fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css');
-	wp_enqueue_style('ipin-style', get_stylesheet_directory_uri() . '/style.css', array('ipin-bootstrap'));
+	// wp_enqueue_style('ipin-bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
+	// wp_enqueue_style('ipin-fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css');
+	// wp_enqueue_style('ipin-style', get_stylesheet_directory_uri() . '/style.css', array('ipin-bootstrap'));
+
+	wp_enqueue_style('ipin-style', get_stylesheet_directory_uri() . '/css/main.css');
+
 	
 	if (of_get_option('color_scheme') == 'dark') {
 		wp_enqueue_style('ipin-style-dark', get_template_directory_uri() . '/style-dark.css', array('ipin-style'));
@@ -837,8 +840,10 @@ function ipin_enqueue_scripts() {
 		wp_enqueue_script('suggest');
 	}
 	
-	wp_enqueue_script('ipin_library', get_template_directory_uri() . '/js/ipin.library.js', array('jquery'), null, true);
-	wp_enqueue_script('ipin_custom', get_template_directory_uri() . '/js/ipin.custom.js', array('jquery'), null, true);
+	// wp_enqueue_script('ipin_library', get_template_directory_uri() . '/js/ipin.library.js', array('jquery'), null, true);
+	// wp_enqueue_script('ipin_custom', get_template_directory_uri() . '/js/ipin.custom.js', array('jquery'), null, true);
+	wp_enqueue_script('ipin_custom', get_template_directory_uri() . '/js/main.js', null, true);
+
 	//for infinite scroll
 	if (function_exists('wp_pagenavi')) {
 		$nextSelector = '#navigation a:nth-child(3)';
@@ -3143,7 +3148,7 @@ function ipin_wp_editor($editor_id, $post_content = '') {
 			'toolbar1' => 'bold, italic, blockquote, bullist, numlist, link, unlink',
 			'toolbar2' => '',
 			'plugins' => 'wplink',
-			'content_css' => get_stylesheet_directory_uri() . '/editor-style-frontend.css'
+			'content_css' => get_stylesheet_directory_uri() . '/css/editor.css'
 		)
 	);
 	ob_start();
