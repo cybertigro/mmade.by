@@ -1,0 +1,12 @@
+.notify {
+  display: inline-block;
+  background: $red;
+  border-radius: 50%;
+  @include size(30px);
+  line-height: 30px;
+  text-align: center;
+  margin-top: 4px;
+}
+.notify__count {
+  color: #FFF; 
+}

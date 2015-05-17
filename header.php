@@ -91,11 +91,8 @@
 				<?php if ($user_ID) { ?>
 					<?php if (current_user_can('edit_posts')) { ?>
 					<li class="hidden-xs">
-						<a id="icon-add-pin" rel="tooltip" data-placement="bottom" title="<?php _e('Add Pin', 'ipin'); ?>" href="<?php echo home_url('/itm-settings/'); ?>">
-							<span class="fa-stack">
-								<i class="fa fa-square fa-stack-2x"></i>
-								<i class="fa fa-plus fa-stack-1x fa-inverse"></i>
-							</span>
+						<a class="btn btn-default" id="icon-add-pin" rel="tooltip" data-placement="bottom" title="<?php _e('Add Pin', 'ipin'); ?>" href="<?php echo home_url('/itm-settings/'); ?>">
+							<span class="translate">+ Добавить</span>
 						</a>
 					</li>
 					<li class="hidden-xs">
@@ -108,7 +105,7 @@
 					</li>
 					<?php } ?>
 
-					<li id="dropdown-user-settings" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="" href=""><span class="hidden-xs"><?php echo get_avatar($user_ID, '26'); ?></span><span class="visible-xs pull-left"><?php echo $user_identity; ?>&nbsp;</span> <b class="caret"></b></a>
+					<li id="dropdown-user-settings" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="" href=""><span class="hidden-xs"><?php echo get_avatar($user_ID, '40'); ?></span><span class="visible-xs pull-left"><?php echo $user_identity; ?>&nbsp;</span> <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<?php if (current_user_can('edit_posts')) { ?>
 							<li class="visible-xs"><a href="<?php echo home_url('/itm-settings/'); ?>"><?php _e('Add Pin', 'ipin'); ?></a></li>
@@ -123,7 +120,7 @@
 							<li><a href="<?php echo home_url('/login/?action=logout&amp;nonce=' . wp_create_nonce('logout')); ?>"><i class="fa fa-sign-out fa-fw hidden-xs"></i> <?php _e('Log Out', 'ipin'); ?></a></li>
 						</ul>
 					</li>
-					<li id="user-notifications-count" class="hidden-xs"><a<?php if ($notifications_count != '0') echo ' class="user-notifications-count-nth"'; ?> href="<?php echo home_url('/notifications/'); ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Notifications', 'ipin'); ?>"><span><?php echo $notifications_count; ?></span></a></li>
+					<li id="user-notifications-count" class="hidden-xs"><a class="notify<?php if ($notifications_count != '0') echo ' user-notifications-count-nth' ?>"; href="<?php echo home_url('/notifications/'); ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Notifications', 'ipin'); ?>"><span class="notify__count"><?php echo $notifications_count; ?></span></a></li>
 				<?php } else { ?>
 					<li class="visible-xs"><a href="<?php echo home_url('/signup/'); ?>"><?php _e('Sign Up', 'ipin'); ?></a></li>
 					<li class="visible-xs"><a href="<?php echo wp_login_url($_SERVER['REQUEST_URI']); ?>"><?php _e('Login', 'ipin'); ?></a></li>
@@ -133,19 +130,9 @@
 
 				<?php 
 				if (has_nav_menu('top_nav')) {
-					wp_nav_menu(array('theme_location' => 'top_nav', 'menu_class' => 'nav navbar-nav', 'depth' => '3'));
+					wp_nav_menu(array('theme_location' => 'top_nav', 'menu_class' => 'nav navbar-nav nav__menu', 'depth' => '3'));
 				} else {
-					echo '<ul id="menu-top" class="nav navbar-nav">';
-					wp_list_pages('title_li=&depth=0&sort_column=menu_order' );
-					echo '</ul>';
-				}
-				?>
-                
-                	<?php 
-				if (has_nav_menu('top_nav_a')) {
-					wp_nav_menu(array('theme_location' => 'top_nav_a', 'menu_class' => 'nav navbar-nav', 'depth' => '3'));
-				} else {
-					echo '<ul id="menu-top" class="nav navbar-nav">';
+					echo '<ul id="menu-top" class="nav navbar-nav nav__menu">';
 					wp_list_pages('title_li=&depth=0&sort_column=menu_order' );
 					echo '</ul>';
 				}
@@ -159,26 +146,31 @@
 					<?php if ('' != $twitter_icon_url = of_get_option('twitter_icon_url')) { ?>
 					<li><a class="topmenu-icons" href="<?php echo $twitter_icon_url; ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Follow us on Twitter', 'ipin'); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<?php } ?>
-
-					<li><a class="topmenu-icons" href="<?php bloginfo('rss2_url'); ?>" rel="tooltip" data-placement="bottom" title="<?php _e('Subscribe to RSS Feed', 'ipin'); ?>"><i class="fa fa-rss"></i></a></li>
 					
-					<li class="dropdown hidden-xs"><a id="topmenu-search" class="dropdown-toggle topmenu-icons" data-toggle="dropdown" href=""><i class="fa fa-search"></i></a>
-						<ul id= "dropdown-search" class="dropdown-menu">
-							<li>
-								<form class="navbar-form" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
-									<input id="s" class="form-control input-sm search-query" type="search" placeholder="<?php _e('Search', 'ipin'); ?>" name="s" value="<?php the_search_query(); ?>">
-									<input type="hidden" name="q" value="<?php echo $_GET['q']; ?>"/>
-									<button class="btn btn-success btn-sm" type="submit"><i class="fa fa-search"></i></button>
-								</form>
-							</li>
-						</ul>
+					<li class="hidden-xs">
+						<form class="navbar-form search" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
+							<input id="s" class="form-control search-query input-search" autocomplete="off" type="search" placeholder="<?php _e('Search', 'ipin'); ?>" name="s" value="<?php the_search_query(); ?>">
+							<input type="hidden" name="q" value="<?php echo $_GET['q']; ?>"/>
+							<button class="btn search__btn" type="submit"><i class="icon-search"></i></button>
+						</form>
 					</li>
 				</ul>
 
-				<form class="navbar-form visible-xs" method="get" id="searchform-mobile" action="<?php echo home_url('/'); ?>">
+				<form class="navbar-form search visible-xs" method="get" id="searchform-mobile" action="<?php echo home_url('/'); ?>">
 					<input type="text" class="form-control search-query" placeholder="<?php _e('Search', 'ipin'); ?>" name="s" value="<?php the_search_query(); ?>">
 					<input type="hidden" name="q" value="<?php echo $_GET['q']; ?>"/>
 				</form>
+
+
+        <?php 
+				if (has_nav_menu('top_nav_a')) {
+					wp_nav_menu(array('theme_location' => 'top_nav_a', 'menu_class' => 'nav navbar-nav nav__menu', 'depth' => '3'));
+				} else {
+					echo '<ul id="menu-top" class="nav navbar-nav nav__menu">';
+					wp_list_pages('title_li=&depth=0&sort_column=menu_order' );
+					echo '</ul>';
+				}
+				?>
 			</div>
 		</div>
 	</nav>
@@ -187,7 +179,7 @@
 	<div id="top-message-wrapper">
 		<div id="top-message" class="container">
 			<div class="pull-right">
-				<a class="btn btn-success" href="<?php echo home_url('/signup/'); ?>"><?php _e('Sign Up', 'ipin'); ?></a>
+				<a class="btn btn-addl" href="<?php echo home_url('/signup/'); ?>"><?php _e('Sign Up', 'ipin'); ?></a>
 			</div>
 			<div class="top-message-left"><?php eval('?>' . of_get_option('top_message')); ?></div>
 		</div>

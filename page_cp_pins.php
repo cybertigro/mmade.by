@@ -420,7 +420,7 @@ if ($_GET['i']) {  //edit pin
 			<div id="pin-upload-from-computer-wrapper" class="jumbotron">
 				<h4><?php _e('From Device', 'ipin'); ?></h4>
 				<form id="pin_upload_form" method="post" action="#" enctype="multipart/form-data">
-					<div class="upload-wrapper btn btn-success btn-block">
+					<div class="upload-wrapper btn btn-default btn-block">
 						<span><?php _e('Browse &amp; Upload', 'ipin'); ?></span>
 						<input id="pin_upload_file" class="upload" type="file" name="pin_upload_file" accept="image/*" /> 
 					</div>
@@ -444,7 +444,7 @@ if ($_GET['i']) {  //edit pin
 					<input type="hidden" name="mode" id="mode" value="web" />
 					<input type="hidden" name="action" id="action" value="ipin-upload-pin" />
 					<p></p>
-					<input class="fetch-pin btn btn-success btn-block btn-ipin-custom" type="submit" name="fetch" id="fetch" value="<?php _e('Fetch', 'ipin'); ?>" />
+					<input class="fetch-pin btn btn-default btn-block" type="submit" name="fetch" id="fetch" value="<?php _e('Fetch', 'ipin'); ?>" />
 					<div class="ajax-loader-add-pin ajax-loader hide"></div>
 				</form>
 			</div>

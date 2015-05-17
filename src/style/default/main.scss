@@ -1,0 +1,90 @@
+// clearfix
+.cf:before, .cf:after {
+  display : table;
+  content : ' ';
+}
+
+.cf:after {
+  clear : both;
+}
+
+// box-sizing: border-box by default
+html {
+  box-sizing : border-box;
+}
+*, *:before, *:after {
+  box-sizing : inherit;
+}
+// children div becomes sometimes box-sizing: content-box
+details * {
+  box-sizing: border-box;
+}
+
+button,
+%default-button {
+  overflow : hidden;
+  margin : 0;
+  padding : 0;
+  cursor : pointer;
+  -webkit-user-select : none;
+      -ms-user-select : none;
+          user-select : none;
+  text-align : center;
+  vertical-align : middle;
+  white-space : nowrap;
+  text-decoration : none;
+  border : 0;
+  background : none;
+  &:focus, &:active,
+  &:active:focus,
+  &.active:focus {
+    outline : none;
+  }
+}
+
+
+ul {
+  margin : 0;
+  padding : 0;
+}
+
+blockquote, q {
+  quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content : '';
+  content : none;
+}
+
+ol, ul {
+  list-style : none;
+}
+
+a {
+  text-decoration : none;
+  img {
+    border: 0; 
+  }
+}
+
+input[type='number'] {
+  -moz-appearance : textfield;
+}
+input[type='number']:hover, input[type='number']:focus {
+  -moz-appearance : number-input;
+}
+
+input[type='number']::-webkit-outer-spin-button, input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance : none;
+  margin : 0;
+}
+
+
+input[type='search'] {
+  box-sizing: border-box;
+}
+
+body {
+  font-family : 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  color : $gray3;
+}

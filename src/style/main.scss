@@ -3,5 +3,16 @@
 @import "third-party/style.scss";
 @import "sprite.scss";
 
+
+@import "sass/mixins.scss";
+@import "sass/colors.scss";
+
+@import "default/main.scss";
 @import "default/default.scss";
+
+@import "default/button.scss";
+@import "default/input.scss";
+@import "default/notify.scss";
+
 @import "header/header.scss";
+@import "header/nav.scss";

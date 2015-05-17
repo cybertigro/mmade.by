@@ -1,0 +1,84 @@
+.btn {
+  font-size : 16px;
+  line-height : 40px;
+
+  height : 40px;
+  padding : 0 25px;
+
+  border : none;
+  border-radius : 39px;
+  &:focus,
+  &:active,
+  &:active:focus,
+  &.active:focus {
+    outline : none;
+  }
+  &:active,
+  &.active {
+    box-shadow : none;
+  }
+  &:hover {
+    transition : none;
+  }
+}
+
+.btn-default {
+  &,
+  &:focus {
+    color : $black;
+    background : $green;
+  }
+  &:hover,
+  &:active:focus {
+    color : $whiteF6;
+    background : $grayH;
+  }
+}
+.btn-default--recoil {
+  @extend .btn-default;
+  &,
+  &:focus {
+    color : $gray9B;
+    background : $whiteF4;
+  }
+  &:hover,
+  &:active:focus {
+    color : $red;
+  }
+}
+
+.btn-addl {
+  &,
+  &:focus {
+    color : $black;
+    background : #ffffff;
+  }
+  &:hover,
+  &:active:focus {
+    color : $greenH;
+    background : #ffffff;
+  }
+}
+.btn-addl--recoil {
+  @extend .btn-addl;
+  &,
+  &:focus {
+    background : $white-5;
+  }
+  &:hover,
+  &:active:focus {
+    color : $red;
+  }
+}
+
+.btn-tag {
+  @extend .btn-default;
+  &,
+  &:focus {
+    background : $grayC;
+  }
+  &:hover,
+  &:active:focus {
+    background : $grayC;
+  }
+}
